@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_solsa_soporte_sn_ejehoras" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_solsa_soporte_sn_ejehoras" element="NULL" name="x_solsa_soporte_sn_ejehoras" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9b0da110db352510c77a152b13961990</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>slx.bb</sys_created_by>
+            <sys_created_on>2023-03-21 14:30:12</sys_created_on>
+            <sys_id>170da110db352510c77a152b13961992</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bb</sys_updated_by>
+            <sys_updated_on>2023-03-21 14:30:12</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_slx_fecha</element>
+            <list_id display_value="x_solsa_soporte_sn_ejehoras" element="NULL" name="x_solsa_soporte_sn_ejehoras" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9b0da110db352510c77a152b13961990</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>slx.bb</sys_created_by>
+            <sys_created_on>2023-03-21 14:30:12</sys_created_on>
+            <sys_id>db0da110db352510c77a152b13961992</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bb</sys_updated_by>
+            <sys_updated_on>2023-03-21 14:30:12</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_slx_horas_consumidas</element>
+            <list_id display_value="x_solsa_soporte_sn_ejehoras" element="NULL" name="x_solsa_soporte_sn_ejehoras" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9b0da110db352510c77a152b13961990</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>slx.bb</sys_created_by>
+            <sys_created_on>2023-03-21 14:30:12</sys_created_on>
+            <sys_id>5f0da110db352510c77a152b13961992</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bb</sys_updated_by>
+            <sys_updated_on>2023-03-21 14:30:12</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_slx_horas_ejecutadas</element>
+            <list_id display_value="x_solsa_soporte_sn_ejehoras" element="NULL" name="x_solsa_soporte_sn_ejehoras" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9b0da110db352510c77a152b13961990</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>slx.bb</sys_created_by>
+            <sys_created_on>2023-03-21 14:30:12</sys_created_on>
+            <sys_id>df0da110db352510c77a152b13961992</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bb</sys_updated_by>
+            <sys_updated_on>2023-03-21 14:30:12</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_slx_hp</element>
+            <list_id display_value="x_solsa_soporte_sn_ejehoras" element="NULL" name="x_solsa_soporte_sn_ejehoras" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9b0da110db352510c77a152b13961990</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>slx.bb</sys_created_by>
+            <sys_created_on>2023-03-21 14:30:12</sys_created_on>
+            <sys_id>530da110db352510c77a152b13961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bb</sys_updated_by>
+            <sys_updated_on>2023-03-21 14:30:12</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_slx_origen</element>
+            <list_id display_value="x_solsa_soporte_sn_ejehoras" element="NULL" name="x_solsa_soporte_sn_ejehoras" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9b0da110db352510c77a152b13961990</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>slx.bb</sys_created_by>
+            <sys_created_on>2023-03-21 14:30:12</sys_created_on>
+            <sys_id>d30da110db352510c77a152b13961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bb</sys_updated_by>
+            <sys_updated_on>2023-03-21 14:30:12</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_slx_persona</element>
+            <list_id display_value="x_solsa_soporte_sn_ejehoras" element="NULL" name="x_solsa_soporte_sn_ejehoras" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9b0da110db352510c77a152b13961990</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>slx.bb</sys_created_by>
+            <sys_created_on>2023-03-21 14:30:12</sys_created_on>
+            <sys_id>570da110db352510c77a152b13961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bb</sys_updated_by>
+            <sys_updated_on>2023-03-21 14:30:12</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_solsa_soporte_sn_ejehoras</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>slx.bb</sys_created_by>
+            <sys_created_on>2023-03-21 14:30:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9b0da110db352510c77a152b13961990</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_solsa_soporte_sn_ejehoras</sys_name>
+            <sys_package display_value="Soporte Servicenow" source="x_solsa_soporte_sn">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_scope>
+            <sys_update_name>sys_ui_list_x_solsa_soporte_sn_ejehoras_null</sys_update_name>
+            <sys_updated_by>slx.bb</sys_updated_by>
+            <sys_updated_on>2023-03-21 14:30:12</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

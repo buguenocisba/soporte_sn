@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Soporte Servicenow">26e3ce801bb1e110bb2611f18c4bcbea</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>SEPARATOR</link_type>
+        <map_page/>
+        <mobile_title>Horas Ejecutadas</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>13</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-03-20 21:31:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3ae382c01bb1e110bb2611f18c4bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Horas Ejecutadas</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Soporte Servicenow" source="x_solsa_soporte_sn">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_scope>
+        <sys_update_name>sys_app_module_3ae382c01bb1e110bb2611f18c4bcb28</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-03-20 21:31:37</sys_updated_on>
+        <timeline_page/>
+        <title>Horas Ejecutadas</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</application>
+        <file_path/>
+        <instance_id>7bc66c564f2e564028b999701310c789</instance_id>
+        <instance_name>solexcldemo1</instance_name>
+        <name>sys_app_module_3ae382c01bb1e110bb2611f18c4bcb28</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Soporte Servicenow">26e3ce801bb1e110bb2611f18c4bcbea</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>SEPARATOR</link_type><map_page/><mobile_title>Horas Ejecutadas</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>13</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>slx.bb</sys_created_by><sys_created_on>2023-03-20 21:31:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3ae382c01bb1e110bb2611f18c4bcb28</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Horas Ejecutadas</sys_name><sys_overrides/><sys_package display_value="Soporte Servicenow" source="x_solsa_soporte_sn">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_package><sys_policy/><sys_scope display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_scope><sys_update_name>sys_app_module_3ae382c01bb1e110bb2611f18c4bcb28</sys_update_name><sys_updated_by>slx.bb</sys_updated_by><sys_updated_on>2023-03-20 21:31:37</sys_updated_on><timeline_page/><title>Horas Ejecutadas</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-791876527</payload_hash>
+        <record_name>Horas Ejecutadas</record_name>
+        <reverted_from/>
+        <source>dbcaf50c1b71e110bb2611f18c4bcbbf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-03-20 21:31:37</sys_created_on>
+        <sys_id>72e382c01bb1e110bb2611f18c4bcb2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18700ef546f0000001</sys_recorded_at>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-03-20 21:31:37</sys_updated_on>
+        <type>Module</type>
+        <update_guid>7ae382c0f2b1e110c05f6da6d1a6ee29</update_guid>
+        <update_guid_history>7ae382c0f2b1e110c05f6da6d1a6ee29:-791876527</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Horas Ejecutadas">2b34c6c01bb1e110bb2611f18c4bcbcc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-03-20 21:33:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>26f35f56bee84d78867523ecfa4bb810</sys_id>
+        <sys_metadata>3ae382c01bb1e110bb2611f18c4bcb28</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Horas Ejecutadas</sys_name>
+        <sys_package display_value="Soporte Servicenow" source="x_solsa_soporte_sn">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_scope>
+        <sys_scope_delete display_value="">4075ca5454f441e0a4925c49d3f2aba4</sys_scope_delete>
+        <sys_update_name>sys_app_module_3ae382c01bb1e110bb2611f18c4bcb28</sys_update_name>
+        <sys_update_version display_value="sys_app_module_3ae382c01bb1e110bb2611f18c4bcb28">72e382c01bb1e110bb2611f18c4bcb2a</sys_update_version>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-03-20 21:33:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

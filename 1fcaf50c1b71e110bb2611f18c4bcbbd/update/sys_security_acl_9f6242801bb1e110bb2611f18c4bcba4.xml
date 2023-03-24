@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>false</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Allow create for records in x_solsa_soporte_sn_esthoras, for users with role security_admin.</description>
+        <name>x_solsa_soporte_sn_esthoras</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-03-20 21:25:06</sys_created_on>
+        <sys_id>9f6242801bb1e110bb2611f18c4bcba4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_solsa_soporte_sn_esthoras</sys_name>
+        <sys_package display_value="Soporte Servicenow" source="x_solsa_soporte_sn">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_scope>
+        <sys_update_name>sys_security_acl_9f6242801bb1e110bb2611f18c4bcba4</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-03-24 18:27:15</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

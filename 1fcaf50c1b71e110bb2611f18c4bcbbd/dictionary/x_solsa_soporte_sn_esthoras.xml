@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="hasLabels=true" audit="true" db_object_id="8a6202801bb1e110bb2611f18c4bcbbe" extends="task" label="Estimación Esfuerzo" max_length="40" name="x_solsa_soporte_sn_esthoras" type="collection">
+        <element label="Horas Estimadas" max_length="40" name="horas_estimadas" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Fecha de Aprobación" max_length="40" name="u_slx_fecha_aprobacion" read_only="true" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Fecha de Envío Solicitud de Aprobación" max_length="40" name="u_slx_fecha_envio" read_only="true" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Soporte SN" mandatory="true" max_length="32" name="u_slx_soporte_sn" read_only="true" reference="x_solsa_soporte_sn_sopsn" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tipo" max_length="40" name="u_slx_tipo" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Análisis" sequence="100" value="analisis"/>
+                <element inactive_on_update="false" label="Configuración" sequence="200" value="configuracion"/>
+                <element inactive_on_update="false" label="Correción" sequence="300" value="correcion"/>
+                <element inactive_on_update="false" label="Diseño" sequence="400" value="diseno"/>
+                <element inactive_on_update="false" label="Levantamiento" sequence="500" value="levantamiento"/>
+                <element inactive_on_update="false" label="Pruebas" sequence="600" value="pruebas"/>
+                <element inactive_on_update="false" label="Múltiple" sequence="700" value="multiple"/>
+            </choice>
+        </element>
+    </element>
+</database>

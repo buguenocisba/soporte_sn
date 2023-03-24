@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>New Soporte ServiceNow</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Soporte ServiceNow</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">b7f102e51b012010bb2611f18c4bcb78</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-03-20 21:10:31</sys_created_on>
+        <sys_id>751f39cc1b71e110bb2611f18c4bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Soporte ServiceNow</sys_name>
+        <sys_package display_value="Soporte Servicenow" source="x_solsa_soporte_sn">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_scope>
+        <sys_update_name>sys_wizard_answer_751f39cc1b71e110bb2611f18c4bcb0c</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-03-20 21:10:31</sys_updated_on>
+        <table/>
+        <target_url>x_solsa_soporte_sn_soporte_servicenow.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</application>
+        <file_path/>
+        <instance_id>7bc66c564f2e564028b999701310c789</instance_id>
+        <instance_name>solexcldemo1</instance_name>
+        <name>sys_wizard_answer_751f39cc1b71e110bb2611f18c4bcb0c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>New Soporte ServiceNow</answer><button_label/><dependent_value/><element/><name>Soporte ServiceNow</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">b7f102e51b012010bb2611f18c4bcb78</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>slx.bb</sys_created_by><sys_created_on>2023-03-20 21:10:31</sys_created_on><sys_id>751f39cc1b71e110bb2611f18c4bcb0c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Soporte ServiceNow</sys_name><sys_package display_value="Soporte Servicenow" source="x_solsa_soporte_sn">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_package><sys_policy/><sys_scope display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_scope><sys_update_name>sys_wizard_answer_751f39cc1b71e110bb2611f18c4bcb0c</sys_update_name><sys_updated_by>slx.bb</sys_updated_by><sys_updated_on>2023-03-20 21:10:31</sys_updated_on><table/><target_url>x_solsa_soporte_sn_soporte_servicenow.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>1631393946</payload_hash>
+        <record_name>Soporte ServiceNow</record_name>
+        <reverted_from/>
+        <source>dbcaf50c1b71e110bb2611f18c4bcbbf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-03-20 21:10:31</sys_created_on>
+        <sys_id>f51f39cc1b71e110bb2611f18c4bcb0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18700dc038c0000001</sys_recorded_at>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-03-20 21:10:31</sys_updated_on>
+        <type>Answer</type>
+        <update_guid>fd1f39cc0c71e1108864f747a81d0f0d</update_guid>
+        <update_guid_history>fd1f39cc0c71e1108864f747a81d0f0d:1631393946</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-03-20 21:12:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>3b0f74ae8efb4b8892d25f77ce75cac9</sys_id>
+        <sys_metadata>751f39cc1b71e110bb2611f18c4bcb0c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Soporte ServiceNow</sys_name>
+        <sys_package display_value="Soporte Servicenow" source="x_solsa_soporte_sn">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_package>
+        <sys_parent display_value="Task">b7f102e51b012010bb2611f18c4bcb78</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_scope>
+        <sys_scope_delete display_value="">4075ca5454f441e0a4925c49d3f2aba4</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_751f39cc1b71e110bb2611f18c4bcb0c</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_751f39cc1b71e110bb2611f18c4bcb0c">f51f39cc1b71e110bb2611f18c4bcb0e</sys_update_version>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-03-20 21:12:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

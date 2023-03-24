@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_slx_persona" table="x_solsa_soporte_sn_ejehoras" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_slx_persona</element>
+            <name>x_solsa_soporte_sn_ejehoras</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>slx.bb</sys_created_by>
+            <sys_created_on>2023-03-22 21:17:13</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_slx_persona</sys_name>
+            <sys_package display_value="Soporte Servicenow" source="x_solsa_soporte_sn">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_scope>
+            <sys_update_name>sys_choice_x_solsa_soporte_sn_ejehoras_u_slx_persona</sys_update_name>
+            <sys_updated_by>slx.bb</sys_updated_by>
+            <sys_updated_on>2023-03-22 21:17:13</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_persona</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Jorge Pardo</label>
+            <language>en</language>
+            <name>x_solsa_soporte_sn_ejehoras</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bb</sys_created_by>
+            <sys_created_on>2023-03-22 21:17:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bb</sys_updated_by>
+            <sys_updated_on>2023-03-22 21:18:50</sys_updated_on>
+            <value>jp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_persona</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Richard Marcoleta</label>
+            <language>en</language>
+            <name>x_solsa_soporte_sn_ejehoras</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bb</sys_created_by>
+            <sys_created_on>2023-03-22 21:17:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bb</sys_updated_by>
+            <sys_updated_on>2023-03-22 21:18:52</sys_updated_on>
+            <value>rm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_persona</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Marcelo Lopez</label>
+            <language>en</language>
+            <name>x_solsa_soporte_sn_ejehoras</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bb</sys_created_by>
+            <sys_created_on>2023-03-22 21:17:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bb</sys_updated_by>
+            <sys_updated_on>2023-03-22 21:18:54</sys_updated_on>
+            <value>ml</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_persona</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mauricio Moreno</label>
+            <language>en</language>
+            <name>x_solsa_soporte_sn_ejehoras</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bb</sys_created_by>
+            <sys_created_on>2023-03-22 21:17:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bb</sys_updated_by>
+            <sys_updated_on>2023-03-22 21:18:56</sys_updated_on>
+            <value>mm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_persona</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Barbara Sagredo</label>
+            <language>en</language>
+            <name>x_solsa_soporte_sn_ejehoras</name>
+            <sequence>500</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bb</sys_created_by>
+            <sys_created_on>2023-03-22 21:17:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bb</sys_updated_by>
+            <sys_updated_on>2023-03-22 21:18:58</sys_updated_on>
+            <value>bs</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_persona</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bruno Bugueño</label>
+            <language>en</language>
+            <name>x_solsa_soporte_sn_ejehoras</name>
+            <sequence>600</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bb</sys_created_by>
+            <sys_created_on>2023-03-22 21:17:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>slx.bb</sys_updated_by>
+            <sys_updated_on>2023-03-22 21:19:04</sys_updated_on>
+            <value>bb</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_persona</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Samuel Florez</label>
+            <language>en</language>
+            <name>x_solsa_soporte_sn_ejehoras</name>
+            <sequence>700</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bb</sys_created_by>
+            <sys_created_on>2023-03-22 21:18:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bb</sys_updated_by>
+            <sys_updated_on>2023-03-22 21:19:06</sys_updated_on>
+            <value>sf</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_persona</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Elias Romero</label>
+            <language>en</language>
+            <name>x_solsa_soporte_sn_ejehoras</name>
+            <sequence>800</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bb</sys_created_by>
+            <sys_created_on>2023-03-22 21:18:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bb</sys_updated_by>
+            <sys_updated_on>2023-03-22 21:19:08</sys_updated_on>
+            <value>er</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

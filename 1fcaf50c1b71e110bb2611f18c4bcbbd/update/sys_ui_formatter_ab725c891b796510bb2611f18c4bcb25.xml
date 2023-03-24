@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter">
+    <sys_ui_formatter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <angular_module/>
+        <formatter>com_glideapp_questionset_default_question_editor</formatter>
+        <name>Soporte Variable Editor</name>
+        <seismic_component/>
+        <sys_class_name>sys_ui_formatter</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-03-23 15:52:43</sys_created_on>
+        <sys_id>ab725c891b796510bb2611f18c4bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Soporte Variable Editor</sys_name>
+        <sys_package display_value="Soporte Servicenow" source="x_solsa_soporte_sn">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_scope>
+        <sys_update_name>sys_ui_formatter_ab725c891b796510bb2611f18c4bcb25</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-03-23 15:52:43</sys_updated_on>
+        <table>x_solsa_soporte_sn_sopsn</table>
+        <type>formatter</type>
+    </sys_ui_formatter>
+</record_update>

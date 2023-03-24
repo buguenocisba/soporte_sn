@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_slx_motivo" table="x_solsa_soporte_sn_sopsn" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_slx_motivo</element>
+            <name>x_solsa_soporte_sn_sopsn</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>slx.bb</sys_created_by>
+            <sys_created_on>2023-03-20 22:18:39</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_slx_motivo</sys_name>
+            <sys_package display_value="Soporte Servicenow" source="x_solsa_soporte_sn">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_scope>
+            <sys_update_name>sys_choice_x_solsa_soporte_sn_sopsn_u_slx_motivo</sys_update_name>
+            <sys_updated_by>slx.bb</sys_updated_by>
+            <sys_updated_on>2023-03-20 22:18:39</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_motivo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aprobación Horas</label>
+            <language>en</language>
+            <name>x_solsa_soporte_sn_sopsn</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bb</sys_created_by>
+            <sys_created_on>2023-03-20 22:18:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bb</sys_updated_by>
+            <sys_updated_on>2023-03-20 22:19:03</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_motivo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Acción Cliente</label>
+            <language>en</language>
+            <name>x_solsa_soporte_sn_sopsn</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bb</sys_created_by>
+            <sys_created_on>2023-03-20 22:18:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bb</sys_updated_by>
+            <sys_updated_on>2023-03-20 22:19:04</sys_updated_on>
+            <value>20</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_motivo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Escala Fabricante</label>
+            <language>en</language>
+            <name>x_solsa_soporte_sn_sopsn</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bb</sys_created_by>
+            <sys_created_on>2023-03-20 22:18:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bb</sys_updated_by>
+            <sys_updated_on>2023-03-20 22:19:05</sys_updated_on>
+            <value>30</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

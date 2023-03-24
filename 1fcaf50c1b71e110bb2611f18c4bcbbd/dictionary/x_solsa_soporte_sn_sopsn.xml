@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="60704a001bb1e110bb2611f18c4bcb78" extends="task" label="Soporte ServiceNow" max_length="40" name="x_solsa_soporte_sn_sopsn" type="collection">
+        <element choice="1" label="Motivo" max_length="40" name="u_slx_motivo" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Aprobación Horas" sequence="10" value="10"/>
+                <element inactive_on_update="false" label="Acción Cliente" sequence="20" value="20"/>
+                <element inactive_on_update="false" label="Escala Fabricante" sequence="30" value="30"/>
+            </choice>
+        </element>
+        <element choice="3" default="alta" label="Prioridad" max_length="40" name="u_slx_prioridad" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="P1 - Alta" sequence="100" value="alta"/>
+                <element inactive_on_update="false" label="P2 - Media" sequence="200" value="media"/>
+                <element inactive_on_update="false" label="P3 - Baja" sequence="300" value="baja"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Registros Relacionados" max_length="4000" name="u_slx_registro_relacionado" reference="task" type="glide_list"/>
+        <element attributes="encode_utf8=false" label="Solicitante Interno" max_length="32" name="u_slx_solicitante_interno" reference="sys_user" reference_qual="javascript: gs.hasRole(&quot;admin&quot;) " type="reference" use_reference_qualifier="advanced"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tipo de Soporte" mandatory="true" max_length="40" name="u_slx_tipo_de_soport" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Incidente" value="inc"/>
+                <element inactive_on_update="false" label="Requerimiento" value="req"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Usuario Relacionado" max_length="4000" name="u_slx_usuario_afectado_sopsn" reference="sys_user" type="glide_list"/>
+    </element>
+</database>

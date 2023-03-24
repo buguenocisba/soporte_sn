@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_solsa_soporte_sn.slx_soporte_sn</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>slx_soporte_sn</name>
+        <script><![CDATA[var slx_soporte_sn = Class.create();
+slx_soporte_sn.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	validar_fechas: function(){
+		
+        // Se crean GlideDateTime para la fecha actual y para el campo ingresado
+        var rightnow = new GlideDateTime();
+        var fieldDate = new GlideDateTime();
+        fieldDate.setDisplayValue(this.getParameter('sysparm_date'));
+        // Se obtiene la porcion de fecha (sin hora) de las variables
+        var today = rightnow.getLocalDate();
+        var istoday = fieldDate.getLocalDate();
+
+        //valida que sea una fecha mayor a la actual
+        if (istoday.compareTo(today) != 1) {
+            return true;
+
+        } else {
+            return false;
+        }
+	},
+	
+    type: 'slx_soporte_sn'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-03-21 14:59:06</sys_created_on>
+        <sys_id>6f527154db352510c77a152b139619a6</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>slx_soporte_sn</sys_name>
+        <sys_package display_value="Soporte Servicenow" source="x_solsa_soporte_sn">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_scope>
+        <sys_update_name>sys_script_include_6f527154db352510c77a152b139619a6</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-03-21 15:43:29</sys_updated_on>
+    </sys_script_include>
+</record_update>
