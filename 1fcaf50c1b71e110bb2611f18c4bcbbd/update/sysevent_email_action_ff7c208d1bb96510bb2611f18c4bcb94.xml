@@ -38,7 +38,11 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Ir a la Estimaci&oacute;n de Esfuerzo: ${URI_REF}&nbsp;</p>]]></message_html>
+        <message_html><![CDATA[<h3><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Estimado(a).</span></h3>
+<p>&nbsp;</p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">La Estimaci&oacute;n de Esfuerzo N&deg; ${number} ha sido Aprobada.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Puede ver todos los detalles de la Estimaci&oacute;n de Esfuerzo en el siguiente ${URI}</span></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>SLX HP Aprobada</name>
@@ -47,7 +51,7 @@
         <push_message_only>false</push_message_only>
         <recipient_fields/>
         <recipient_groups name="Grupo administradores">44d48981db1128106adb8ebe159619fc</recipient_groups>
-        <recipient_users/>
+        <recipient_users>servicenow.ibm.rimac@solex.biz</recipient_users>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
@@ -60,7 +64,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ff7c208d1bb96510bb2611f18c4bcb94</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>SLX HP Aprobada</sys_name>
         <sys_overrides/>
         <sys_package display_value="Soporte Servicenow" source="x_solsa_soporte_sn">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_package>
@@ -68,7 +72,7 @@
         <sys_scope display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_scope>
         <sys_update_name>sysevent_email_action_ff7c208d1bb96510bb2611f18c4bcb94</sys_update_name>
         <sys_updated_by>slx.bb</sys_updated_by>
-        <sys_updated_on>2023-03-24 19:04:46</sys_updated_on>
+        <sys_updated_on>2023-03-27 19:25:45</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

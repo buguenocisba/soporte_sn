@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Requerimiento (Solex)">eb5350b81bbd2510bb2611f18c4bcb81</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>slx.jp</sys_created_by>
+        <sys_created_on>2023-03-24 19:36:31</sys_created_on>
+        <sys_id>f7efc69d1b3ded100c75fe6e034bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requerimiento (Solex).Administradores Sistema</sys_name>
+        <sys_package display_value="Soporte Servicenow" source="x_solsa_soporte_sn">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_f7efc69d1b3ded100c75fe6e034bcb17</sys_update_name>
+        <sys_updated_by>slx.jp</sys_updated_by>
+        <sys_updated_on>2023-03-24 19:36:31</sys_updated_on>
+        <user_criteria display_value="Administradores Sistema">d7dfc69d1b3ded100c75fe6e034bcb00</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>

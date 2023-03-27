@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>false</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Allow write for records in x_solsa_soporte_sn_sopsn, for users with role security_admin.</description>
+        <name>x_solsa_soporte_sn_sopsn.comments</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-03-27 15:27:26</sys_created_on>
+        <sys_id>dcb3b85e1bbda1500c75fe6e034bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_solsa_soporte_sn_sopsn.comments</sys_name>
+        <sys_package display_value="Soporte Servicenow" source="x_solsa_soporte_sn">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_scope>
+        <sys_update_name>sys_security_acl_dcb3b85e1bbda1500c75fe6e034bcb8b</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-03-27 15:27:26</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</application>
+        <file_path/>
+        <instance_id>53580f32dbd164d452dd2f17d49619bf</instance_id>
+        <instance_name>rimacdev</instance_name>
+        <name>sys_security_acl_dcb3b85e1bbda1500c75fe6e034bcb8b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>false</admin_overrides><advanced>false</advanced><condition/><description>Allow write for records in x_solsa_soporte_sn_sopsn, for users with role security_admin.</description><name>x_solsa_soporte_sn_sopsn.comments</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>slx.bb</sys_created_by><sys_created_on>2023-03-27 15:27:26</sys_created_on><sys_id>dcb3b85e1bbda1500c75fe6e034bcb8b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_solsa_soporte_sn_sopsn.comments</sys_name><sys_package display_value="Soporte Servicenow" source="x_solsa_soporte_sn">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_package><sys_policy/><sys_scope display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_scope><sys_update_name>sys_security_acl_dcb3b85e1bbda1500c75fe6e034bcb8b</sys_update_name><sys_updated_by>slx.bb</sys_updated_by><sys_updated_on>2023-03-27 15:27:26</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>292943016</payload_hash>
+        <record_name>x_solsa_soporte_sn_sopsn.comments</record_name>
+        <reverted_from/>
+        <source>e14a46191b3ded100c75fe6e034bcbed</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-03-27 15:27:27</sys_created_on>
+        <sys_id>20b3b85e1bbda1500c75fe6e034bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18723ae6f840000001</sys_recorded_at>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-03-27 15:27:27</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>28b3b85ee0bda1502ca27fa6181b478e</update_guid>
+        <update_guid_history>28b3b85ee0bda1502ca27fa6181b478e:292943016</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-03-27 15:29:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>1922fd40c94f41bc9fc45d43560278a1</sys_id>
+        <sys_metadata>dcb3b85e1bbda1500c75fe6e034bcb8b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_solsa_soporte_sn_sopsn.comments</sys_name>
+        <sys_package display_value="Soporte Servicenow" source="x_solsa_soporte_sn">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_package>
+        <sys_parent display_value="x_solsa_soporte_sn_sopsn">c02a4a191b3ded100c75fe6e034bcb48</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_scope>
+        <sys_scope_delete display_value="">4075ca5454f441e0a4925c49d3f2aba4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_dcb3b85e1bbda1500c75fe6e034bcb8b</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_dcb3b85e1bbda1500c75fe6e034bcb8b">20b3b85e1bbda1500c75fe6e034bcb8f</sys_update_version>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-03-27 15:29:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

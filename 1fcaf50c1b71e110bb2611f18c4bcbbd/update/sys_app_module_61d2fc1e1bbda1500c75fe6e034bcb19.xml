@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Soporte ServiceNow">632a20161bbda1500c75fe6e034bcb24</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_solsa_soporte_sn_sopsn">stateIN600,601,602,603^EQ<item display_value="600,601,602,603" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="600,601,602,603"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Solicitudes Activas</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_solsa_soporte_sn_sopsn</name>
+        <order>300</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>admin</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-03-27 15:25:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>61d2fc1e1bbda1500c75fe6e034bcb19</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Solicitudes Activas</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Soporte Servicenow" source="x_solsa_soporte_sn">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_scope>
+        <sys_update_name>sys_app_module_61d2fc1e1bbda1500c75fe6e034bcb19</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-03-27 16:04:42</sys_updated_on>
+        <timeline_page/>
+        <title>Solicitudes Activas</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

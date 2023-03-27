@@ -3,10 +3,10 @@
         <active>true</active>
         <description/>
         <entitlement_script/>
-        <header_icon/>
-        <homepage_image/>
+        <header_icon>854616151b7ded100c75fe6e034bcb68</header_icon>
+        <homepage_image>323616151b7ded100c75fe6e034bcb0f</homepage_image>
         <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
-        <icon/>
+        <icon>034616151b7ded100c75fe6e034bcb79</icon>
         <image/>
         <location/>
         <mobile_hide_description>false</mobile_hide_description>
@@ -16,20 +16,20 @@
         <order>0</order>
         <parent/>
         <roles/>
-        <sc_catalog display_value="Soporte ServiceNow">d48dc60c1bb1e110bb2611f18c4bcbb6</sc_catalog>
+        <sc_catalog display_value="Soporte ServiceNow Solex">d48dc60c1bb1e110bb2611f18c4bcbb6</sc_catalog>
         <sys_class_name>sc_category</sys_class_name>
         <sys_created_by>slx.bb</sys_created_by>
         <sys_created_on>2023-03-24 18:23:05</sys_created_on>
         <sys_id>ee1f311ddbb5e510c77a152b13961977</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Soporte</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Opciones de Soporte</sys_name>
         <sys_package display_value="Soporte Servicenow" source="x_solsa_soporte_sn">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_scope>
         <sys_update_name>sc_category_ee1f311ddbb5e510c77a152b13961977</sys_update_name>
-        <sys_updated_by>slx.bb</sys_updated_by>
-        <sys_updated_on>2023-03-24 18:23:05</sys_updated_on>
-        <title>Soporte</title>
+        <sys_updated_by>slx.jp</sys_updated_by>
+        <sys_updated_on>2023-03-24 20:04:20</sys_updated_on>
+        <title>Opciones de Soporte</title>
     </sc_category>
     <sys_translated_text action="delete_multiple" query="documentkey=ee1f311ddbb5e510c77a152b13961977"/>
 </record_update>

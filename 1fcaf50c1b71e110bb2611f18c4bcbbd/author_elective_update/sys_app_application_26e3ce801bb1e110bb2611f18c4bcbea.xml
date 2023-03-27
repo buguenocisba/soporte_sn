@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>false</active>
+        <category display_value="">Custom Applications</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order/>
+        <roles>security_admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-03-20 21:31:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>26e3ce801bb1e110bb2611f18c4bcbea</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Soporte Servicenow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Soporte Servicenow" source="x_solsa_soporte_sn">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_scope>
+        <sys_update_name>sys_app_application_26e3ce801bb1e110bb2611f18c4bcbea</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-03-27 15:23:09</sys_updated_on>
+        <title>Soporte Servicenow</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</application>
+        <file_path/>
+        <instance_id>53580f32dbd164d452dd2f17d49619bf</instance_id>
+        <instance_name>rimacdev</instance_name>
+        <name>sys_app_application_26e3ce801bb1e110bb2611f18c4bcbea</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>false</active><category display_value="">Custom Applications</category><description/><device_type>browser</device_type><hint/><name/><order/><roles>security_admin</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>slx.bb</sys_created_by><sys_created_on>2023-03-20 21:31:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>26e3ce801bb1e110bb2611f18c4bcbea</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Soporte Servicenow</sys_name><sys_overrides/><sys_package display_value="Soporte Servicenow" source="x_solsa_soporte_sn">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_package><sys_policy/><sys_scope display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_scope><sys_update_name>sys_app_application_26e3ce801bb1e110bb2611f18c4bcbea</sys_update_name><sys_updated_by>slx.bb</sys_updated_by><sys_updated_on>2023-03-27 15:23:09</sys_updated_on><title>Soporte Servicenow</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>1963737331</payload_hash>
+        <record_name>Soporte Servicenow</record_name>
+        <reverted_from/>
+        <source>e14a46191b3ded100c75fe6e034bcbed</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-03-27 15:23:09</sys_created_on>
+        <sys_id>edb23c1e1bbda1500c75fe6e034bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18723aa80770000001</sys_recorded_at>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-03-27 15:23:09</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>e5b23c1e7cbda15023afd5441d670a93</update_guid>
+        <update_guid_history>e5b23c1e7cbda15023afd5441d670a93:1963737331,cb2a8e19473ded1024d3062ba54aa34d:1901508942</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Soporte Servicenow">3e7430de1bbda1500c75fe6e034bcbd3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-03-27 15:30:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>16764300ad28482083f2ccc304abe290</sys_id>
+        <sys_metadata>26e3ce801bb1e110bb2611f18c4bcbea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Soporte Servicenow</sys_name>
+        <sys_package display_value="Soporte Servicenow" source="x_solsa_soporte_sn">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_scope>
+        <sys_scope_delete display_value="">4075ca5454f441e0a4925c49d3f2aba4</sys_scope_delete>
+        <sys_update_name>sys_app_application_26e3ce801bb1e110bb2611f18c4bcbea</sys_update_name>
+        <sys_update_version display_value="sys_app_application_26e3ce801bb1e110bb2611f18c4bcbea">edb23c1e1bbda1500c75fe6e034bcb93</sys_update_version>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-03-27 15:30:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -6,21 +6,60 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category display_value="Soporte">ee1f311ddbb5e510c77a152b13961977</category>
+        <category display_value="Opciones de Soporte">ee1f311ddbb5e510c77a152b13961977</category>
         <checked_out/>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description/>
+        <description><![CDATA[<p><span style="font-size: 11.0pt; line-height: 115%; font-family: Calibri, sans-serif;">Se define como un Incidente, cualquier evento que no forma parte del desarrollo habitual del sistema y que causa, o puede causar una interrupción del mismo o una reducción de la calidad de dicho servicio. La principal función es recuperar el nivel habitual de funcionamiento del servicio y minimizar en todo lo posible el impacto negativo en la organización de forma que la calidad del servicio y la disponibilidad se mantengan.</span></p>
+<p><span style="font-size: 11.0pt; line-height: 115%; font-family: Calibri, sans-serif;">Una vez recibido el Incidente, se definirá el nivel de prioridad y se procederá a buscar su resolución, escalando a quienes sea necesario</span></p>
+<p><span style="font-size: 11.0pt; line-height: 115%; font-family: Calibri, sans-serif;">Las prioridades son:</span></p>
+<table class="MsoNormalTable" style="width: 835px; margin-left: 2.85pt; border-collapse: collapse; height: 214.227px;" border="0" cellspacing="0" cellpadding="0"><tbody><tr style="height: 47.0455px;"><td style="width: 154.02px; border: 1pt solid windowtext; background: #bfbfbf; padding: 2.85pt; height: 47.0455px;" valign="top">
+<p style="text-align: center; margin: 0cm 0cm 10pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="line-height: 115%;">Prio<span style="color: black;">ridad</span></span></strong></p>
+</td><td style="width: 355.795px; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: initial; border-left: none; background: #bfbfbf; padding: 2.85pt; height: 47.0455px;" valign="top">
+<p style="text-align: center; margin: 0cm 0cm 10pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="line-height: 115%; color: black;">Descripción</span></strong></p>
+</td><td style="width: 159.744px; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: initial; border-left: none; background: #bfbfbf; padding: 2.85pt; height: 47.0455px;" valign="top">
+<p style="text-align: center; margin: 0cm 0cm 10pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="line-height: 115%; color: black;">SLA de servicio (horas/días hábiles)</span></strong></p>
+</td><td style="width: 130.554px; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: initial; border-left: none; background: #bfbfbf; padding: 2.85pt; height: 47.0455px;" valign="top">
+<p style="text-align: center; margin: 0cm 0cm 10pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="line-height: 115%; color: black;">Recargo consumo de horas</span></strong></p>
+</td></tr><tr style="height: 60.3693px;"><td style="width: 154.02px; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-image: initial; border-top: none; padding: 2.85pt; height: 60.3693px;" valign="top">
+<p style="text-align: center; margin: 0cm 0cm 10pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">P1 - Alta</p>
+</td><td style="width: 355.795px; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 2.85pt; height: 60.3693px;" valign="bottom">
+<p style="text-align: justify; margin: 0cm 0cm 10pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">Genera pérdida total del servicio, exponiendo directamente al cliente y los procesos críticos de negocio.</p>
+</td><td style="width: 159.744px; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 2.85pt; height: 60.3693px;" valign="top">
+<p style="text-align: justify; margin: 0cm 0cm 10pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">Atención: 1 Hora </p>
+<p style="text-align: justify; margin: 0cm 0cm 10pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">Resolución: 4 horas</p>
+</td><td style="width: 130.554px; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 2.85pt; height: 60.3693px;" valign="top">
+<p style="text-align: center; margin: 0cm 0cm 10pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"><em><span style="line-height: 115%;">50% adicional</span></em></p>
+</td></tr><tr style="height: 63.9062px;"><td style="width: 154.02px; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-image: initial; border-top: none; padding: 2.85pt; height: 63.9062px;" valign="top">
+<p style="text-align: center; margin: 0cm 0cm 10pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">P2 - Media</p>
+</td><td style="width: 355.795px; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 2.85pt; height: 63.9062px;" valign="bottom">
+<p style="text-align: justify; margin: 0cm 0cm 10pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">Genera pérdida parcial de funcionalidad o del servicio, la operación continua, aunque en forma restringida o con una solución temporal.</p>
+</td><td style="width: 159.744px; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 2.85pt; height: 63.9062px;" valign="top">
+<p style="text-align: justify; margin: 0cm 0cm 10pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">Respuesta: 2 Horas </p>
+<p style="text-align: justify; margin: 0cm 0cm 10pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">Resolución: 2 días </p>
+</td><td style="width: 130.554px; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 2.85pt; height: 63.9062px;" valign="top">
+<p style="text-align: center; margin: 0cm 0cm 10pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"><em><span style="line-height: 115%;">30% adicional</span></em></p>
+</td></tr><tr style="height: 42.9062px;"><td style="width: 154.02px; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-image: initial; border-top: none; padding: 2.85pt; height: 42.9062px;" valign="top">
+<p style="text-align: center; margin: 0cm 0cm 10pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">P3 - Baja</p>
+</td><td style="width: 355.795px; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 2.85pt; height: 42.9062px;" valign="bottom">
+<p style="text-align: justify; margin: 0cm 0cm 10pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">Incidente que genera pérdida mínima del servicio o en la operación del sistema. Fallas que no impactan la continuidad del servicio.</p>
+</td><td style="width: 159.744px; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 2.85pt; height: 42.9062px;" valign="top">
+<p style="text-align: justify; margin: 0cm 0cm 10pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">Respuesta: 4 Horas</p>
+<p style="text-align: justify; margin: 0cm 0cm 10pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">Resolución: 4 días</p>
+</td><td style="width: 130.554px; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 2.85pt; height: 42.9062px;" valign="top">
+<p style="text-align: center; margin: 0cm 0cm 10pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"><em><span style="line-height: 115%;">Sin recargo</span></em></p>
+</td></tr></tbody></table>
+<p style="margin: 0cm 0cm 10pt 18pt; text-align: justify; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="line-height: 115%;"> </span></strong></p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
-        <icon/>
+        <icon>eb69a0d21bbda1500c75fe6e034bcbc3</icon>
         <ignore_price>true</ignore_price>
         <image/>
         <location/>
@@ -30,7 +69,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Soporte ServiceNow Solex Incidente</name>
+        <name>Incidente ServiceNow (Solex)</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -46,7 +85,7 @@
         <order>0</order>
         <ordered_item_link/>
         <owner display_value="slx bb">4f3bd6ce1b8da010bb2611f18c4bcbce</owner>
-        <picture/>
+        <picture>d87f121d1b7ded100c75fe6e034bcb27</picture>
         <post_insert_script/>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=a5ad0e0c1bb1e110bb2611f18c4bcbc0&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
@@ -67,7 +106,7 @@ current.u_slx_incident_type = RP.getParameterValue('sysparm_id');
 current.u_slx_tipo_de_soport = 'inc';
 current.u_slx_solicitante_interno = current.opened_by;
 ]]></script>
-        <short_description/>
+        <short_description>Incidente 3er nivel sobre ServiceNow</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <state/>
@@ -75,14 +114,14 @@ current.u_slx_solicitante_interno = current.opened_by;
         <sys_created_by>slx.bb</sys_created_by>
         <sys_created_on>2023-03-20 22:14:49</sys_created_on>
         <sys_id>a5ad0e0c1bb1e110bb2611f18c4bcbc0</sys_id>
-        <sys_mod_count>12</sys_mod_count>
-        <sys_name>Soporte ServiceNow Solex Incidente</sys_name>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Incidente ServiceNow (Solex)</sys_name>
         <sys_package display_value="Soporte Servicenow" source="x_solsa_soporte_sn">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_scope>
         <sys_update_name>sc_cat_item_producer_a5ad0e0c1bb1e110bb2611f18c4bcbc0</sys_update_name>
-        <sys_updated_by>slx.bb</sys_updated_by>
-        <sys_updated_on>2023-03-24 18:23:25</sys_updated_on>
+        <sys_updated_by>slx.jp</sys_updated_by>
+        <sys_updated_on>2023-03-27 14:55:48</sys_updated_on>
         <table_name>x_solsa_soporte_sn_sopsn</table_name>
         <taxonomy_topic/>
         <template/>
@@ -93,16 +132,40 @@ current.u_slx_solicitante_interno = current.opened_by;
         <u_slx_categoria/>
         <u_slx_ci/>
         <u_slx_grupo_tarea_1/>
+        <u_slx_grupo_tarea_10/>
+        <u_slx_grupo_tarea_11/>
         <u_slx_grupo_tarea_2/>
         <u_slx_grupo_tarea_3/>
+        <u_slx_grupo_tarea_4/>
+        <u_slx_grupo_tarea_5/>
+        <u_slx_grupo_tarea_6/>
+        <u_slx_grupo_tarea_7/>
+        <u_slx_grupo_tarea_8/>
+        <u_slx_grupo_tarea_9/>
         <u_slx_sla/>
         <u_slx_sla_tarea_1/>
+        <u_slx_sla_tarea_10/>
+        <u_slx_sla_tarea_11/>
         <u_slx_sla_tarea_2/>
         <u_slx_sla_tarea_3/>
+        <u_slx_sla_tarea_4/>
+        <u_slx_sla_tarea_5/>
+        <u_slx_sla_tarea_6/>
+        <u_slx_sla_tarea_7/>
+        <u_slx_sla_tarea_8/>
+        <u_slx_sla_tarea_9/>
         <u_slx_subcategoria/>
         <u_slx_tarea_1/>
+        <u_slx_tarea_10/>
+        <u_slx_tarea_11/>
         <u_slx_tarea_2/>
         <u_slx_tarea_3/>
+        <u_slx_tarea_4/>
+        <u_slx_tarea_5/>
+        <u_slx_tarea_6/>
+        <u_slx_tarea_7/>
+        <u_slx_tarea_8/>
+        <u_slx_tarea_9/>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
         <view/>
@@ -130,4 +193,45 @@ current.u_slx_solicitante_interno = current.opened_by;
         <table>sc_cat_item_producer</table>
         <type>calculated</type>
     </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#e5ecf2</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>icon</file_name>
+        <hash>288f0f26cafa5b8013f48a951cee7ce208eeb8b3d9348c5599e4917b83634232</hash>
+        <image_height>84</image_height>
+        <image_width>84</image_width>
+        <size_bytes>3227</size_bytes>
+        <size_compressed>3250</size_compressed>
+        <state>available</state>
+        <sys_created_by>slx.jp</sys_created_by>
+        <sys_created_on>2023-03-27 14:42:35</sys_created_on>
+        <sys_id>eb69a0d21bbda1500c75fe6e034bcbc3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>slx.jp</sys_updated_by>
+        <sys_updated_on>2023-03-27 14:42:36</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>a5ad0e0c1bb1e110bb2611f18c4bcbc0</table_sys_id>
+        <u_slx_att_portal/>
+        <u_slx_upload/>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="eb69a0d21bbda1500c75fe6e034bcbc3">eb69a0d21bbda1500c75fe6e034bcbc3</sys_attachment>
+        <sys_created_by>slx.jp</sys_created_by>
+        <sys_created_on>2023-03-27 14:42:35</sys_created_on>
+        <sys_id>2f69a0d21bbda1500c75fe6e034bcbc3</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>4320</length>
+        <position>1</position>
+        <sys_attachment display_value="icon" sys_id="eb69a0d21bbda1500c75fe6e034bcbc3">eb69a0d21bbda1500c75fe6e034bcbc3</sys_attachment>
+        <sys_created_by>slx.jp</sys_created_by>
+        <sys_created_on>2023-03-27 14:42:35</sys_created_on>
+        <sys_id>af69a0d21bbda1500c75fe6e034bcbc3</sys_id>
+    </sys_attachment_doc>
 </record_update>

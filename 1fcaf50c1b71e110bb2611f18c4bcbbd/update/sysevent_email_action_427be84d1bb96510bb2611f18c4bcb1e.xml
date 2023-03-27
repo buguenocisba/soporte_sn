@@ -39,7 +39,17 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Ir al Soporte: ${URI_REF}&nbsp;</p>]]></message_html>
+        <message_html><![CDATA[<h3><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Estimado(a).</span></h3>
+<p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 13.3333px;">El Soporte N&deg;${number} ha sido completado.<br /></span></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 13.3333px;">Datos de la Solicitud:</span></span></p>
+<ul style="list-style-position: inside;">
+<li style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 13.3333px;">Tipo: <strong>${u_slx_tipo_de_soport}</strong></span></li>
+<li style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 13.3333px;">Solicitante Interno: <strong>${u_slx_solicitante_interno}</strong><br /></span></li>
+<li style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 13.3333px;">Asignado a: <strong>${assigned_to}</strong><br /></span></li>
+<li style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 13.3333px;">Prioridad: <strong>${u_slx_prioridad}</strong><br /></span></li>
+<li style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 13.3333px;">Descripci&oacute;n: <strong>${description}</strong><br /></span></li>
+</ul>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Puede ver todos los detalles de la Solicitud en el siguiente ${URI}</span></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>SLX SOPSN Completado</name>
@@ -48,12 +58,12 @@
         <push_message_only>false</push_message_only>
         <recipient_fields>u_slx_solicitante_interno</recipient_fields>
         <recipient_groups/>
-        <recipient_users/>
+        <recipient_users>servicenow.ibm.rimac@solex.biz</recipient_users>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Se ha Completado el Soporte ${number}</subject>
+        <subject>Se ha Completado el Soporte N°${number}</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>slx.bb</sys_created_by>
@@ -61,7 +71,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>427be84d1bb96510bb2611f18c4bcb1e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>SLX SOPSN Completado</sys_name>
         <sys_overrides/>
         <sys_package display_value="Soporte Servicenow" source="x_solsa_soporte_sn">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_package>
@@ -69,7 +79,7 @@
         <sys_scope display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_scope>
         <sys_update_name>sysevent_email_action_427be84d1bb96510bb2611f18c4bcb1e</sys_update_name>
         <sys_updated_by>slx.bb</sys_updated_by>
-        <sys_updated_on>2023-03-23 17:39:06</sys_updated_on>
+        <sys_updated_on>2023-03-27 19:36:11</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
