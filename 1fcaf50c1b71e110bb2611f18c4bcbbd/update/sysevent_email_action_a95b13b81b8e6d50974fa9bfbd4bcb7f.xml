@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_solsa_soporte_sn_sopsn</collection>
+        <condition table="x_solsa_soporte_sn_sopsn">commentsVALCHANGES^EQ<item endquery="false" field="comments" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<h3><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Estimado(a).</span></h3>
+<p><span style="font-size: 13.3333px; font-family: arial, helvetica, sans-serif;">Se ha agregado el siguiente comentario al Soporte <strong>N&deg;</strong><strong>${number}.<br /></strong></span></p>
+<p>&nbsp;</p>
+<p>${comments_and_work_notes}</p>
+<p>&nbsp;</p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">Puede ver todos los detalles de la Solicitud en el siguiente ${URI}</span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>SLX Comentario Agregado SOPSN</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>u_slx_solicitante_interno,assigned_to</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Se le ha agregado un comentario al Soporte N°${number}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-04-04 22:08:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a95b13b81b8e6d50974fa9bfbd4bcb7f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>SLX Comentario Agregado SOPSN</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Soporte Servicenow" source="x_solsa_soporte_sn">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_scope>
+        <sys_update_name>sysevent_email_action_a95b13b81b8e6d50974fa9bfbd4bcb7f</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-04-04 22:10:48</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>
