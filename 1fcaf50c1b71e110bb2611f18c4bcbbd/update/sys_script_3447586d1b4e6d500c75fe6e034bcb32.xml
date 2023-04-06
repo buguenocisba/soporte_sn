@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_solsa_soporte_sn_ejehoras</collection>
+        <condition/>
+        <description>Calcula recargos de horas consumidas segun origen</description>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_solsa_soporte_sn_ejehoras">u_slx_horas_ejecutadasISNOTEMPTY^EQ<item endquery="false" field="u_slx_horas_ejecutadas" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX Calcular Recargo</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var horas = current.u_slx_horas_ejecutadas;
+    var origen = current.u_slx_origen;
+    var periodo = current.u_slx_origen.u_slx_periodo;
+	var prioridad = origen.u_slx_prioridad;
+    var horasConsumidas = 0;
+
+    // Si el tipo de soporte es Incidente, calcula los recargos
+    if (origen.u_slx_tipo_de_soport == 'inc') {
+
+		if (prioridad == 'alta'){
+			horasConsumidas = (horas * 1.5); // Recargo de 50%
+		} else if(prioridad == 'media'){
+			horasConsumidas = (horas * 1.3); // Recargo de 30%
+		}else{
+			horasConsumidas = horas; // Sin Recargo
+		}
+		
+
+        // Si es tipo Requerimiento y es urgente, calcula recargo
+    } else if (origen.u_slx_tipo_de_soporte == 'req' && origen.variables.urgente == 'true') {
+        horasConsumidas = horas * 1; //Validar recargo
+    } else {
+        horasConsumidas = horas;
+    }
+
+    /** FALTA VALIDAR EL RECARGO POR FUERA DE HORARIO **/
+
+    // Asigna horas consumidas
+    current.u_slx_horas_consumidas = horasConsumidas;
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-04-06 16:01:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3447586d1b4e6d500c75fe6e034bcb32</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>SLX Calcular Recargo</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Soporte Servicenow" source="x_solsa_soporte_sn">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_scope>
+        <sys_update_name>sys_script_3447586d1b4e6d500c75fe6e034bcb32</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-04-06 18:32:32</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=3447586d1b4e6d500c75fe6e034bcb32"/>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bf0210291b4e6d500c75fe6e034bcbdc" label="Registro Mensual Soporte Servicenow" max_length="40" name="x_solsa_soporte_sn_registro_mensual_soporte_servicenow" type="collection">
+        <element default="0" label="Alerta" max_length="15" name="u_slx_alerta" type="decimal"/>
+        <element choice="1" label="Estado" mandatory="true" max_length="40" name="u_slx_estado" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Futuro" sequence="100" value="futuro"/>
+                <element inactive_on_update="false" label="En Curso" sequence="200" value="curso"/>
+                <element inactive_on_update="false" label="Cerrado" sequence="300" value="cerrado"/>
+            </choice>
+        </element>
+        <element label="Fin Periodo" max_length="40" name="u_slx_fin_periodo" type="glide_date_time"/>
+        <element default="0" label="Horas Anticipadas Mes Anterior" max_length="15" name="u_slx_horas_anticipadas" read_only="true" type="decimal"/>
+        <element default="0" label="Horas Consumidas" max_length="15" name="u_slx_horas_consumidas" read_only="true" type="decimal"/>
+        <element default="0" label="Horas Heredadas Mes Anterior" max_length="15" name="u_slx_horas_heredadas" read_only="true" type="decimal"/>
+        <element default="0" label="Horas del Mes" max_length="15" name="u_slx_horas_mes" type="decimal"/>
+        <element label="Inicio Periodo" max_length="40" name="u_slx_ini_periodo" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Mes Anterior" max_length="32" name="u_slx_mes_anterior" reference="x_solsa_soporte_sn_registro_mensual_soporte_servicenow" type="reference"/>
+        <element display="true" label="Periodo" max_length="80" name="u_slx_periodo" type="string"/>
+        <element default="0" label="Saldo Final Mes" max_length="15" name="u_slx_saldo_final" type="decimal"/>
+        <element default="0" label="Saldo Heredable" max_length="15" name="u_slx_saldo_heredable" read_only="true" type="decimal"/>
+        <element default="0" label="Saldo Individual Mes" max_length="15" name="u_slx_saldo_individual" read_only="true" type="decimal"/>
+        <index name="index">
+            <element name="u_slx_mes_anterior"/>
+        </index>
+    </element>
+</database>

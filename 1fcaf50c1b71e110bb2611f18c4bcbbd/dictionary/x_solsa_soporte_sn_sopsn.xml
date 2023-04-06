@@ -7,6 +7,7 @@
                 <element inactive_on_update="false" label="Escala Fabricante" sequence="30" value="30"/>
             </choice>
         </element>
+        <element attributes="encode_utf8=false" label="Periodo" max_length="32" name="u_slx_periodo" reference="x_solsa_soporte_sn_registro_mensual_soporte_servicenow" type="reference"/>
         <element choice="3" default="alta" label="Prioridad" max_length="40" name="u_slx_prioridad" type="choice">
             <choice>
                 <element inactive_on_update="false" label="P1 - Alta" sequence="100" value="alta"/>
@@ -15,7 +16,7 @@
             </choice>
         </element>
         <element attributes="encode_utf8=false" label="Registros Relacionados" max_length="4000" name="u_slx_registro_relacionado" reference="task" type="glide_list"/>
-        <element attributes="encode_utf8=false" label="Solicitante Interno" max_length="32" name="u_slx_solicitante_interno" reference="sys_user" reference_qual="javascript: gs.hasRole(&quot;admin&quot;) " type="reference" use_reference_qualifier="advanced"/>
+        <element attributes="encode_utf8=false" label="Solicitante Interno" max_length="32" name="u_slx_solicitante_interno" reference="sys_user" reference_qual="javascript: gs.hasRole(&quot;admin&quot;)" type="reference" use_reference_qualifier="advanced"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Tipo de Soporte" mandatory="true" max_length="40" name="u_slx_tipo_de_soport" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Incidente" value="inc"/>

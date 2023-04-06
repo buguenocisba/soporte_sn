@@ -2,6 +2,7 @@
     <element audit="true" db_object_id="82b38e801bb1e110bb2611f18c4bcbff" label="Horas Ejecutadas" max_length="40" name="x_solsa_soporte_sn_ejehoras" type="collection">
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Fecha" max_length="40" name="u_slx_fecha" type="glide_date_time"/>
+        <element label="Fuera de Horario" max_length="40" name="u_slx_fuera_horario" type="boolean"/>
         <element label="Horas Consumidas" max_length="15" name="u_slx_horas_consumidas" read_only="true" type="decimal"/>
         <element label="Horas Ejecutadas" max_length="15" name="u_slx_horas_ejecutadas" type="decimal"/>
         <element attributes="encode_utf8=false" label="HP" max_length="32" name="u_slx_hp" reference="x_solsa_soporte_sn_esthoras" reference_qual="javascript: &quot;u_slx_soporte_sn=&quot;+ current.u_slx_origen+&quot;^state=702^EQ&quot;" type="reference" use_reference_qualifier="advanced"/>

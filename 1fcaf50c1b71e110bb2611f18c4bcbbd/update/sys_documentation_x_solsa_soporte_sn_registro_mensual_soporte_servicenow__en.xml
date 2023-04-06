@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Registro Mensual Soporte Servicenow" language="en" table="x_solsa_soporte_sn_registro_mensual_soporte_servicenow">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Registro Mensual Soporte Servicenow</label>
+            <language>en</language>
+            <name>x_solsa_soporte_sn_registro_mensual_soporte_servicenow</name>
+            <plural>Registro Mensual Soporte Servicenows</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>slx.bb</sys_created_by>
+            <sys_created_on>2023-04-06 15:22:54</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Registro Mensual Soporte Servicenow</sys_name>
+            <sys_package display_value="Soporte Servicenow" source="x_solsa_soporte_sn">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_scope>
+            <sys_update_name>sys_documentation_x_solsa_soporte_sn_registro_mensual_soporte_servicenow__en</sys_update_name>
+            <sys_updated_by>slx.bb</sys_updated_by>
+            <sys_updated_on>2023-04-06 15:22:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

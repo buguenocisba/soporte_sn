@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_solsa_soporte_sn_registro_mensual_soporte_servicenow</collection>
+        <condition/>
+        <description>Calcula el saldo final me&#13;
+Formula: SM + HH. Si el valor es negativo, lo copia en positivo en Mes Futuro.HA</description>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_solsa_soporte_sn_registro_mensual_soporte_servicenow">u_slx_saldo_individualVALCHANGES^ORu_slx_horas_heredadasVALCHANGES^EQ<item endquery="false" field="u_slx_saldo_individual" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="u_slx_horas_heredadas" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX Calcular saldo final mes</name>
+        <order>200</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var saldoIndividual = current.u_slx_saldo_individual;
+    var horasHeredadas = current.u_slx_horas_heredadas;
+    var saldoFinal = 0;
+
+    saldoFinal = saldoIndividual + horasHeredadas;
+	
+	current.u_slx_saldo_final = saldoFinal;
+	
+    if (saldoFinal < 0) {
+        //Busca el siguiente mes con el sys id actual
+        var mesSiguiente = new GlideRecord("x_solsa_soporte_sn_registro_mensual_soporte_servicenow");
+        mesSiguiente.addQuery("u_slx_mes_anterior", current.sys_id);
+        mesSiguiente.query();
+        if (mesSiguiente.next()) {
+            // Copia las horas heredables al mes siguiente
+            mesSiguiente.u_slx_horas_anticipadas = -(current.u_slx_saldo_final);
+            mesSiguiente.update();
+        }
+    }
+
+
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bb</sys_created_by>
+        <sys_created_on>2023-04-06 17:16:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>969ce0211bce6d500c75fe6e034bcbd9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>SLX Calcular saldo final mes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Soporte Servicenow" source="x_solsa_soporte_sn">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_scope>
+        <sys_update_name>sys_script_969ce0211bce6d500c75fe6e034bcbd9</sys_update_name>
+        <sys_updated_by>slx.bb</sys_updated_by>
+        <sys_updated_on>2023-04-06 18:34:52</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=969ce0211bce6d500c75fe6e034bcbd9"/>
+</record_update>

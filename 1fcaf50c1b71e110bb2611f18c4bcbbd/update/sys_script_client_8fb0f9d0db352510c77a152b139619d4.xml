@@ -26,7 +26,7 @@
 
 function handleResponse(response) {
     var answer = response.responseXML.documentElement.getAttribute("answer");
-	g_form.addInfoMessage(answer);
+
     if (answer == "false") {
 		g_form.addInfoMessage(answer);
         g_form.clearValue('u_slx_fecha');
@@ -39,7 +39,7 @@ function handleResponse(response) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8fb0f9d0db352510c77a152b139619d4</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>SLX Validar Fecha</sys_name>
         <sys_overrides/>
         <sys_package display_value="Soporte Servicenow" source="x_solsa_soporte_sn">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_package>
@@ -47,7 +47,7 @@ function handleResponse(response) {
         <sys_scope display_value="Soporte Servicenow">1fcaf50c1b71e110bb2611f18c4bcbbd</sys_scope>
         <sys_update_name>sys_script_client_8fb0f9d0db352510c77a152b139619d4</sys_update_name>
         <sys_updated_by>slx.bb</sys_updated_by>
-        <sys_updated_on>2023-03-22 20:41:15</sys_updated_on>
+        <sys_updated_on>2023-04-06 17:33:21</sys_updated_on>
         <table>x_solsa_soporte_sn_ejehoras</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
